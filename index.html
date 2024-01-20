@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="popup-container">
+      <div id="popup">
+        <span id="close-btn">&times;</span>
+        <form id="popup-form">
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="name">Last Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="email">Phone No:</label>
+          <input type="text" id="phone" name="phone" required />
+          <label for="Catagory">Choose Main Catagory:</label>
+          <select id="Catagory">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+          <label for="SCatagory">Choose Sub Catagory:</label>
+          <select id="SCatagory">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+
+          <label for="Location">Choose Location:</label>
+          <select id="Location">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+
+          <label for="message" style="position: absolute; bottom: 15%; left: 2%;" >Message:</label>
+          <textarea id="message" name="message" rows="4" cols="2" required style="position: absolute; bottom: 10%; right: 2%;" ></textarea>
+
+          <button type="submit">Send Now</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
